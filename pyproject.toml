@@ -1,0 +1,12 @@
+[project]
+name = "prototype"
+version = "0.1.0"
+description = "Example templates for develop in FastAPI"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.15.2",
+    "fastapi>=0.115.12",
+    "sqlalchemy>=2.0.40",
+    "uvicorn[standard]>=0.34.2",
+]
